@@ -31,10 +31,10 @@ let total=0;
             <h4 className='cart-header'>Order Summary</h4>
             <h4 className='order-item'>Item Ordered: {cart.length}</h4>
             <h6 className='price-part'> Product Price : ${formatNumber (total)}</h6>
-            <h6 className='price-part'> Shipping Cost : {Shipping} </h6>
-            <h6 className='price-part'> TAX & BAT : {formatNumber(tax)} </h6>
+            <h6 className='price-part'> Shipping Cost :${Shipping} </h6>
+            <h6 className='price-part'> TAX & BAT :${formatNumber(tax)} </h6>
 
-            <h1>Total Price :{formatNumber(grandprice)}</h1>
+            <h1>Total Price :${formatNumber(grandprice)}</h1>
         </div>
     );
 };
